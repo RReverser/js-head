@@ -1,0 +1,26 @@
+{
+  "name": "js-head",
+  "version": "1.0.0",
+  "description": "Get the first element in iterable collection",
+  "main": "build/index.js",
+  "scripts": {
+    "prepublish": "babel src/index.js > build/index.js",
+    "test": "mocha test/test.js -r babel/register",
+    "dev": "mocha test/test.js -r babel/register -w"
+  },
+  "keywords": [
+    "head"
+  ],
+  "author": "Roman Liutikov <roman01la@romanliutikov.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "deep-equal": "^1.0.1",
+    "immutable": "^3.7.5",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roman01la/js-head.git"
+  }
+}
