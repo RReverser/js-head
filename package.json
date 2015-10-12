@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Get the first element in iterable collection",
   "main": "build/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "prepublish": "babel src/index.js > build/index.js",
     "test": "mocha test/test.js -r babel/register",
