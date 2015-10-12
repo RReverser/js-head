@@ -1,6 +1,6 @@
 {
   "name": "js-head",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the first element in iterable collection",
   "main": "build/index.js",
   "jsnext:main": "src/index.js",
